@@ -93,5 +93,23 @@ body {
     padding: 30px;
     margin: 0 auto;
     border: 1px solid black;
+    border-radius: 2px;
 
+}
+
+.header-container{
+    width: 250px;
+    border: 1px solid black;
+    margin: 0 auto;
+
+}
+
+.description{
+    font-size: 24px;
+    color: #4fc4fc;
+    padding-bottom: 20px;
+}
+
+.learn-more{
+    font-size: 12px;
 }
