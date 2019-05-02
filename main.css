@@ -130,8 +130,8 @@ label{
 
 }
 
-.account{
-}
+/* .account{
+} */
 
 .fieldset{
     border: none;
@@ -182,13 +182,6 @@ label{
 }
 
 
-
-
-
-
-
-
-
 .description{
     font-size: 24px;
     padding-bottom: 20px;
@@ -205,18 +198,20 @@ label{
 
 /* styling the input fields */
 
-#email{
+#email, #phone, #password  {
     padding: 6px 6px 6px 8px;
 }
 
-#phone{
-    padding: 6px 6px 6px 8px;
-}
+/* removes the ugly up and down arrow in phone number input element*/
 
-#password{
-    padding: 6px 6px 6px 8px;
+input[type='number'] {
+        -moz-appearance:textfield;
+    }
+    
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
-
 
 /* styling the submit button */
 
