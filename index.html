@@ -29,30 +29,26 @@
                 <div class="sign-up">Create an account for all of Intuit's products including Mint.<a href="#" class="learn-more">Learn more</a></div>
                 <span class="account">Already have an account?</span><a href="#" class="sign-up-url">Sign In</a>
             </div>
-            <form action="">
-                <fieldset>
-            <div class="email">
-            <label>
+            <form >
+            <fieldset class="fieldset">
+            <label class="label" for="email">
                 Email address
-                <input type="email" name="email" required>
             </label>
-            </div>
+            <input type="email" name="email" class="input" id="email" required>
+
             
-            <div class="phone">
-                <label>
+            <label class="label" for="phone">
                 Phone <span>(recommended)</span>
-                <input type="number" name="Phone">
-                <div class="warning">Standard call, messaging or data rates may apply.</div>
-                </label>
-            </div>
-        
-            <div class="password">
-                <label>
+            </label>
+            <div class="input">
+            <input type="number" id="phone" class="phone-input" name="Phone">
+            <div class="warning">Standard call, messaging or data rates may apply.</div>
+           </div>   
+            <label class="label" for="password">
                 Password
-                <input type="text" name="Password">
-                </label>
-            </div>
-        
+            </label>
+            <input type="text" id="password" class="input" name="Password">
+                
         <button class="create" name="Submit">
             <span><i class="fas fa-lock"></i><strong>Create Account</strong></span>
         </button>
