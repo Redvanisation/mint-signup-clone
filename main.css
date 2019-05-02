@@ -87,3 +87,11 @@ body {
     cursor: pointer;
 
 }
+
+.form-section{
+    width: 350px;
+    padding: 30px;
+    margin: 0 auto;
+    border: 1px solid black;
+
+}
