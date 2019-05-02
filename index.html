@@ -23,11 +23,11 @@
                 <h5 class="sub-header">turbotax</h5>
             </div>
         </header>
-        <main class="form-section">
+        <div class="form-section">
+        <main class="main-section">
             <div class="header-container">
-                <span class="description">One Account. Everything Intuit.</span>
-                <div class="sign-up">Create an account for all of Intuit's products including Mint.<a href="#" class="learn-more">Learn more</a></div>
-                <span class="account">Already have an account?</span><a href="#" class="sign-up-url">Sign In</a>
+                <span class="description">One Account. <br> Everything Intuit.</span>
+                <div class="sign-up">Create an account for all of Intuit's products including Mint. <a href="#" class="learn-more">Learn more</a></div>
             </div>
             <form >
             <fieldset class="fieldset">
@@ -40,9 +40,9 @@
             <label class="label" for="phone">
                 Phone <span>(recommended)</span>
             </label>
-            <div class="input">
-            <input type="number" id="phone" class="phone-input" name="Phone">
-            <div class="warning">Standard call, messaging or data rates may apply.</div>
+            <div class="number-input">
+                <input type="number" id="phone" class="phone-input" name="Phone">
+                <div class="warning">Standard call, messaging or data rates may apply.</div>
            </div>   
             <label class="label" for="password">
                 Password
@@ -50,10 +50,19 @@
             <input type="text" id="password" class="input" name="Password">
                 
         <button class="create" name="Submit">
-            <span><i class="fas fa-lock"></i><strong>Create Account</strong></span>
+            <span><i class="fas fa-unlock-alt icon"></i>Create Account</span>
         </button>
     </fieldset>
     </form>
+    <footer class="footer">
+            By clicking Create Account, you agree to our
+            <a href="#" class="footer-link">Terms of Service</a> and have read and acknowledge our <a href="#" class="footer-link">Privacy Statement.</a>
+    </footer>
+
     </main>
+    <section class="captcha">
+            Invisible reCAPTCHA by Google <a class= "footer-link" href="#">Privacy Policy</a> and <a class= "footer-link" href="#">Terms of Use.</a>
+    </section>
+    </div>
     </body>
 </html>
