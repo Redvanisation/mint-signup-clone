@@ -92,16 +92,28 @@ body {
     width: 350px;
     padding: 30px;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 1px solid gray;
     border-radius: 2px;
 
 }
 
 .header-container{
-    width: 250px;
+    padding: 2rem 1rem;
     border: 1px solid black;
     margin: 0 auto;
 
+}
+
+.sign-up{
+    margin-top: 1rem;
+}
+
+.account{
+    font-size: 14px;
+}
+
+.sign-up-url{
+    font-size: 12px;
 }
 
 .description{
