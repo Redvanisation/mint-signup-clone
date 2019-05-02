@@ -205,3 +205,18 @@ label{
 #password{
     padding: 6px 6px 6px 8px;
 }
+
+.create{
+    border: 0;
+    background: blue;
+    color: white;
+    padding: 15px 30px;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 5px;
+  
+}
+
+.create:hover {
+    background: #77a198;
+  }
