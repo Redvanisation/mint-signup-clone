@@ -1,4 +1,4 @@
-# mint-singup-clone
+# mint-signup-clone
 
 
 
