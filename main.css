@@ -1,280 +1,257 @@
+#email, #phone, #password
+{
+	padding: 6px 6px 6px 8px;
+}
 *,
 html,
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
-
-body {
-    font-family: sans-serif;
-    text-align: center;
-    background-color: #eceef1;
-    font-size: 14px;
+.btn-class
+{
+	height: 20%;
+	margin-right: .5rem;
+	padding: .5rem;
+	padding-top: .5rem;
 }
-
-/* styling the header */
-
-.flexbox {
-    display: flex;
-    flex-wrap: wrap;
+.captcha
+{
+	background-color: #ECEEF1;
+	color: #8d9096;
+	font-size: 10px;
+	padding: 1.5rem 1rem;
+	width: 100%;
 }
-
-.header {
-    padding-top: 5rem;
-    color: gray;
-
+.create
+{
+	background: #0077C5;
+	border: 0;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 400;
+	outline: none;
+	padding: 15px 30px;
+	width: 100%;
 }
-
-/* styling the sign in button and enclosed text */
-
-.signin {
-    font-weight: 100;
-    float: right;
+.create:active
+{
+	color: #ECEEF1;
 }
-
-.btn-class {
-    height: 20%;
-    padding: .5rem;
-    padding-top: .5rem;
-    margin-right: .5rem;
+.create:hover
+{
+	background: #167CCC;
 }
-
-.signin-text {
-    display: inline-block;
-    height: 20%;
-    padding: .5rem;
-    padding-top: .5rem;
-    font-size: 12px;
-    line-height: 1.5;
+.description
+{
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 1.1;
+	padding-bottom: 20px;
 }
-
-.icon {
-    margin-right: .5rem;
+.fieldset
+{
+	border: none;
+	margin: 1rem auto;
 }
-
-
-.signin-link {
-    text-decoration: none;
-    color: #0077C5;
-    cursor: pointer;
+.flexbox
+{
+	display: flex;
+	flex-wrap: wrap;
 }
-
-.signin-button {
-    padding: .5rem 1.2rem;
-    border-radius: 5px;
-    background-color: #0077C5;
-    color: white;
-    border: 1px solid black;
-    font-size: 13px;
-    cursor: pointer;
+.footer
+{
+	color: #505050;
+	font-size: 12px;
+	font-weight: 400;
+	margin: 2rem 0;
 }
-
-/* styling the title of the sign in page */
-
-.title {
-    font-size: 2rem;
-    letter-spacing: .5rem;
-    text-transform: uppercase;
-    cursor: pointer;
-
+.footer-info
+{
+	line-height: 1.1rem;
 }
-
-.sub-headers {
-    margin: 1rem;
+.footer-misc
+{
+	margin: .5rem 0;
 }
-
-.sub-header {
-    display: inline-block;
-    font-weight: 100;
-    line-height: 1.6;
-    font-size: 1.1rem;
-    letter-spacing: .1rem;
-    margin-left: .5rem;
-    cursor: pointer;
-
+.form-section
+{
+	background-color: #fff;
+	border: 1px solid #c7c7c7;
+	border-radius: 2px;
+	color: #4C4C4C;
+	margin: 0 auto 1rem;
+	width: 380px;
 }
-
-/* styling the main form section */
-
-.form-section{
-    width: 380px;
-    margin: 0 auto 5rem;
-    border: 1px solid #c7c7c7;
-    border-radius: 2px;
-    background-color: #fff;
-    color: #4C4C4C;
-    
+.header
+{
+	color: gray;
+	padding-top: 5rem;
 }
-
-.main-section {
-    padding: 30px;
-
+.header-container
+{
+	margin: 0 auto;
 }
-
-/* styling the foreword in the form section */
-.header-container{
-    /* padding: .5rem 1rem; */
-    margin: 0 auto;
-
+.icon
+{
+	margin-right: .5rem;
 }
-
-
-/* styling the label elements*/
-label{
-    padding: 0px,0px,6px;
+.input
+{
+	border: 1px solid #d8d8d8;
+	border-radius: 3px;
+	height: 34px;
+	margin: .5rem auto 2rem;
+	padding-left: 8px;
+	padding-right: 6px;
+	text-align: left;
+	width: 100%;
 }
-
-.sign-up{
-    margin-top: 1rem;
-
+.label
+{
+	display: block;
+	text-align: left;
 }
-
-/* .account{
-} */
-
-.fieldset{
-    border: none;
-    margin: 1rem auto;
-}
-
-
-.label{
-    display: block;
-    text-align: left;
-}
-
-/* styling the input elements*/
-
-.input {
-    text-align:left;
-    width:100%;
-    height: 34px;
-    margin: .5rem auto 2rem;
-    border-radius: 3px;
-    padding-left: 8px;
-    padding-right: 6px;
-    border: 1px solid #d8d8d8;
-}
-
-/* giving more space under the input element for the phone  */
-
-.number-input {
-    margin: .5rem auto 2rem;
-    text-align: left;
-}
-
-.phone-input{
-    /* width: 100%; */
-    margin-bottom: .5rem;
-    width:100%;
-    height: 34px;
-    border-radius: 3px;
-    padding-left: 8px;
-    padding-right: 6px;
-    border: 1px solid #d8d8d8;
-}
-
-/* styling the text under the phone input element  */
-
-.warning{
-    font-size: 10px;
-}
-
-
-.description{
-    font-size: 24px;
-    padding-bottom: 20px;
-    font-weight: 400;
-    line-height: 1.1;
-}
-
 .learn-more,
-.sign-up-url {
-    font-size: 12px;
-    color: #0077C5;
-    text-decoration: none;
+.sign-up-url
+{
+	color: #0077C5;
+	font-size: 12px;
+	text-decoration: none;
 }
-
-/* styling the input fields */
-
-#email, #phone, #password  {
-    padding: 6px 6px 6px 8px;
+.main-section
+{
+	padding: 30px;
 }
-
-/* removes the ugly up and down arrow in phone number input element*/
-
-input[type='number'] {
-        -moz-appearance:textfield;
-    }
-    
+.misc-li
+{
+	display: inline-block;
+	padding: 0 0 0 .5rem;
+}
+.misc-link
+{
+	color: #505050;
+	font-size: 12px;
+	text-decoration: none;
+}
+.misc-link:hover
+{
+	text-decoration: underline;
+}
+.number-input
+{
+	margin: .5rem auto 2rem;
+	text-align: left;
+}
+.phone-input
+{
+	border: 1px solid #d8d8d8;
+	border-radius: 3px;
+	height: 34px;
+	margin-bottom: .5rem;
+	padding-left: 8px;
+	padding-right: 6px;
+	width: 100%;
+}
+.signin
+{
+	float: right;
+	font-weight: 100;
+}
+.signin-button
+{
+	background-color: #0077C5;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 13px;
+	padding: .5rem 1.2rem;
+}
+.signin-link
+{
+	color: #0077C5;
+	cursor: pointer;
+	text-decoration: none;
+}
+.signin-text
+{
+	display: inline-block;
+	font-size: 12px;
+	height: 20%;
+	line-height: 1.5;
+	padding: .5rem;
+	padding-top: .5rem;
+}
+.sign-up
+{
+	margin-top: 1rem;
+}
+.sub-header
+{
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.1rem;
+	font-weight: 100;
+	letter-spacing: .1rem;
+	line-height: 1.6;
+}
+.sub-header-img
+{
+	width: 30px;
+}
+.sub-headers
+{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin: 1rem auto;
+}
+.terms-div
+{
+	color: #757575;
+	font-size: 12px;
+	font-style: italic;
+	margin: 4rem 0 1rem;
+	text-align: center;
+}
+.terms-link
+{
+	color: #0077C5;
+	text-decoration: none;
+}
+.title
+{
+	cursor: pointer;
+	font-size: 2rem;
+	letter-spacing: .5rem;
+	text-transform: uppercase;
+}
+.warning
+{
+	font-size: 10px;
+}
+body
+{
+	background-color: #eceef1;
+	font-family: sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
 input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
+input::-webkit-inner-spin-button
+{
+	webkit-appearance: none;
 }
-
-/* styling the submit button */
-
-.create{
-    border: 0;
-    background: #0077C5;
-    color: white;
-    padding: 15px 30px;
-    width: 100%;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 15px;
-    font-weight: 400;
-    outline: none;
+input[type='number']
+{
+	moz-appearance: textfield;
 }
-
-.create:hover {
-    background: #167CCC;
-  }
-
-.create:active {
-    color: #ECEEF1;
-}
-
-
-/* styling the footer and the captcha sections */
-
-.terms-div {
-text-align: center;
-font-style: italic;
-color: #757575;
-font-size: 12px;
-margin: 4rem 0 1rem;
-}
-
-.terms-link {
-    color: #0077C5;
-    text-decoration: none;
-}
-
-.captcha {
-    width: 100%;
-    background-color: #ECEEF1;
-    font-size: 10px;
-    padding: 1.5rem 1rem;
-    color: #8d9096;
-}
-
-/* styling the page footer section */
-
-.misc-li{
-    padding: 0 0 0 .5rem;
-    display: inline-block;
-   
-}
-
-.misc-link{
-    color: #505050;
-    font-size: 12px;
-    text-decoration: none;
-}
-
-
-.misc-link:hover{
-    text-decoration: underline;
+label
+{
+	padding: 0px,0px,6px;
 }
