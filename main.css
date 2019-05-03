@@ -239,7 +239,7 @@ input::-webkit-inner-spin-button {
 
 /* styling the footer and the captcha sections */
 
-.footer {
+.terms-div {
 text-align: center;
 font-style: italic;
 color: #757575;
@@ -247,7 +247,7 @@ font-size: 12px;
 margin: 4rem 0 1rem;
 }
 
-.footer-link {
+.terms-link {
     color: #0077C5;
     text-decoration: none;
 }
