@@ -259,3 +259,22 @@ margin: 4rem 0 1rem;
     padding: 1.5rem 1rem;
     color: #8d9096;
 }
+
+/* styling the page footer section */
+
+.misc-li{
+    padding: 0 0 0 .5rem;
+    display: inline-block;
+   
+}
+
+.misc-link{
+    color: #505050;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+.misc-link:hover{
+    text-decoration: underline;
+}
